@@ -26,10 +26,10 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 # Inherit some common CorvusOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
-$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
+$(call inherit-product, vendor/krypton/configs/KryptonCommon.mk)
 
 # Device identifier
-PRODUCT_NAME := corvus_ginkgo
+PRODUCT_NAME := krypton_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8

@@ -1,0 +1,33 @@
+ 
+[
+  {
+    "repository": "AOSP-Krypton/device_xiaomi_ginkgo",
+    "target_path": "device/xiaomi/ginkgo",
+    "branch": "A11",
+    "remote": "github"
+  },
+  {
+    "repository": "AOSP-Krypton/kernel_xiaomi_ginkgo",
+    "target_path": "kernel/xiaomi/ginkgo",
+    "branch": "A11",
+    "remote": "github" 
+  },
+  {
+    "repository": "AOSP-Krypton/vendor_xiaomi_ginkgo",
+    "target_path": "vendor/xiaomi/ginkgo",
+    "branch": "A11",
+    "remote": "github"
+  },
+  {
+    "repository": "AOSP-Krypton/vendor_xiaomi_trinket-common",
+    "target_path": "vendor/xiaomi/trinket-common",
+    "branch": "A11",
+    "remote": "github"
+  },
+  {
+    "repository": "AOSP-Krypton/device_xiaomi_trinket-common",
+    "target_path": "device/xiaomi/trinket-common",
+    "branch": "A11",
+    "remote": "github"
+  }
+]

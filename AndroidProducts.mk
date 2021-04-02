@@ -1,12 +1,12 @@
-# Copyright (C) 2020 CorvusOS
+# Copyright (C) 2020 Krypton
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_ginkgo.mk
+    $(LOCAL_DIR)/krypton_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_ginkgo-user \
-    corvus_ginkgo-userdebug \
-    corvus_ginkgo-eng
+    krypton-user_ginkgo-user \
+    krypton_ginkgo-userdebug \
+    krypton_ginkgo-eng

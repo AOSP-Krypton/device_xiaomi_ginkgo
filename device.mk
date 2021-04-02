@@ -108,6 +108,11 @@ PRODUCT_COPY_FILES += \
 # Config Store
 PRODUCT_PACKAGES += \
     disable_configstore
+	
+# Display
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/qcom/opensource/display-commonsys-intf \
+    hardware/qcom-caf/sm6125	
 
 # Display/Graphics
 PRODUCT_AAPT_CONFIG := normal
